@@ -1,0 +1,291 @@
+
+/*======================
+HERO AREA CSS
+========================*/
+.hero-area{
+    background: url(../img/hero-bg-2.jpg);
+    background-color: #2E9BF7;
+    margin-top: 15px;
+    background-size: cover;
+    background-position: center;
+    line-height: 1.8;
+}
+.hero-content {
+    margin-top: -90px;
+}
+.boxed-button,input[type=submit]{
+    background: #06D6A0;
+    color: #fff;
+    transition: .3s;
+}
+.boxed-button:hover{
+    background: #000;
+    color: #06D6A0;
+}
+.hero-area h1{
+    color: #fff;
+    font-size: 45px;
+}
+.hero-area p{
+    color: #fff;
+}
+.hero-form {
+    background: #fff;
+    padding: 30px;
+    color: #333;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+.hero-form:after {
+    content: "";
+    left: 10px;
+    top: 10px;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.2;
+    border-radius: 5px;
+}
+.hero-form-header p {
+    color: #333;
+}
+.hero-form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.hero-form-wrapper input {
+    width: 100%;
+    border-radius: 5px;
+}
+.hero-form-wrapper input[type=submit] {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 0;
+}
+
+
+/*======================
+MERKETING CSS
+========================*/
+#marketing-agency {
+    margin-top: 110px;
+}
+.marketing-agency-content h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #333;
+}
+.marketing-agency-content p {
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+
+.section-title h2 {
+    font-size: 28px;
+    color: #333;
+}
+.section-title p {
+    color: #999;
+}
+.single-service-box-2 {
+    background: #FBFBFB;
+    height: 200px;
+    display: block;
+    display: table;
+    width: 100%;
+}
+.service-box-table-cell {
+    vertical-align: middle;
+    display: table-cell;
+}
+.service-icon {
+    color: #8BCDF9;
+    margin-bottom: 15px;
+}
+.service-box-table-cell:hover .service-icon {
+    color: #fff
+} 
+.service-box-table-cell:hover h3{
+    color: #fff
+}
+
+
+#testomonial-2 {
+    margin-top: 120px;
+    background: #FBFBFB;
+    padding: 80px 0;
+    text-align: center;
+}
+.testomonial-icon {
+    border: 1px solid #ddd;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    color: #20A6F9;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+.testomonial-icon:hover{
+    background: #4289F1;
+    color: #F8F8F8;
+    border: 0;
+}
+.fa.fa-quote-right.testomonial-icon {
+}
+.single-testomonial-item h4 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 36px;
+}
+.single-testomonial-item span{
+    font-size: 14px;
+    color: #999;
+}
+.single-testomonial-item p {
+    line-height: 1.8;
+}
+
+
+.single-case-study-2 h4{
+    color: #333;
+    margin-top: 15px;
+}
+.single-case-study-wrapper-2 {
+    position: relative;
+    overflow: hidden;
+}
+.single-case-study-overlay-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 30px;
+    text-align: center;
+    color: #fff;
+    background: #6598E6;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+    transform: scale(.5)
+}
+.single-case-study-wrapper-2:hover .single-case-study-overlay-2{
+    opacity: .8;
+    transform: scale(1)
+}
+.single-case-study-overlay-2 .boxed-button {
+    margin-top: 25%;
+    background: #fff;
+    color: #333;
+    transition: .3s;
+
+}
+.boxed-button:hover{
+    background: #000;
+    color: #fff;
+}
+.single-pricing-box {
+    padding: 0;
+}
+.single-pricing-heading{
+    background: #FBFBFB;
+    margin-bottom: 40px;
+}
+
+.pricing-containt .boxed-button {
+    display: block;
+    border-radius: 0;
+    background: #30CC71;
+}
+.pricing-containt .boxed-button:hover{
+    background: #000;
+    color: #fff;
+}
+.pricing-containt ul{
+    margin-bottom: 40px;
+}
+.pricing-containt ul {
+    line-height: 2;
+    padding-left: 0;
+    margin-left: 0;
+}
+.pricing-count {
+    font-size: 50px;
+    color: #18ACFA;
+}
+.single-pricing-box {
+    padding: 0;
+    line-height: 3;
+}
+.single-pricing-box.theme-2:hover {
+    border-color: #FBFBFB;
+}
+
+#blog-section-2 {
+    margin-bottom: 120px;
+}
+
+.single-blog-box {
+    border: 1px solid #F3F3F3;
+    padding: 50px 30px;
+}
+.single-blog-box:hover{
+    background: #FBFBFB;
+}
+.single-blog-box h3 {
+    font-size: 20px;
+    font-weight: 300;
+}
+.single-blog-box p {
+    font-size: 14px;
+    line-height: 2;
+}
+.blog-read-more-btn i {
+    padding: 10px;
+    display: inline-block;
+}
+.blog-read-more-btn:hover a{
+    color: #000;
+}
+.blog-read-more-btn a {
+    display: inline-block;
+    color: #999;
+}
+#cta-area .boxed-button{
+    background: #fff;
+    color: #333;
+}
+#cta-area .boxed-button:hover{
+    background: #333;
+    color: #fff;
+}
+#cta-area h2{
+    color: #fff;
+    
+}
+#cta-area{
+    background: #7db9e8;
+    background: -moz-linear-gradient(top, #7db9e8 1%, #3399ff 100%, #7db9e8 100%);
+    background: -webkit-linear-gradient(top, #7db9e8 1%,#3399ff 100%,#7db9e8 100%);
+    background: linear-gradient(to bottom, #7db9e8 1%,#3399ff 100%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#7db9e8',GradientType=0 );}
+.service-box-table-cell:hover{
+    background: #7db9e8;
+    background: -moz-linear-gradient(top, #7db9e8 1%, #3399ff 100%, #7db9e8 100%);
+    background: -webkit-linear-gradient(top, #7db9e8 1%,#3399ff 100%,#7db9e8 100%);
+    background: linear-gradient(to bottom, #7db9e8 1%,#3399ff 100%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#7db9e8',GradientType=0 );}
+
+
+
+
+

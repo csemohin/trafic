@@ -1,0 +1,420 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+    .boxed-button,
+    input[type=button], 
+    input[type=submit] {
+        padding: 12px 8px
+    }
+    .email-subscription input[type="submit"] {
+        margin-left: 37px;
+        padding: 10px 73px;}
+    .single-slide-rapper h2{
+        color: #fff;
+        font-size: 40px;
+    }
+    .single-service-box {
+        padding: 15px 22px;}
+    .service-count span {
+        font-size: 50px;}
+    .single-box-wrapper1 {
+        height: 200px;}
+    .single-box-wrapper3 {
+        height: 200px;}
+    .single-box-wrapper2 {
+        height: 200px;}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .header-area.them-1 .logo {
+        text-align: center;
+    }
+
+    .mainmenu {
+        display: none;
+    }
+    .sm-center{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .hero-area {
+        padding: 20px 0;
+    }
+    .hero-area h1 {
+        max-width: inherit;
+        font-size: 30px;
+        margin: 20px 0;
+    }
+    .section-title {
+        padding-top: 50px;
+        margin-bottom: 20px;}
+    .pdt-50 {
+        padding-top: 20px;
+    }
+    .sm-left{
+        text-align: left;
+    }
+    #testomonial-area {
+        padding: 50px 0;
+    }
+    .email-subscription input[type="submit"] {
+        margin-left: 37px;
+    }
+    .hero-content {
+        margin-top: 0px; 
+    }
+    .single-service-box-2 {
+        margin-bottom: 20px;
+    }
+    #testomonial-2 {
+        margin-top: 20px;
+        padding: 40px 0;
+        text-align: center;
+    }
+    .single-blog-box {
+        margin-bottom: 20px;
+    }
+    .website-check-form {
+        padding: 40px 0 50px;
+    }
+    .m-t-20 {
+        margin-top: 30px;
+    }
+    .single-slide-rapper h2{
+        font-size: 40px;
+    }
+    #footer-area {
+        text-align: center;}
+    .hero-area-wrapper h2 {
+        font-size: 30px;}
+    .tile-galary {
+        position: relative;
+        text-align: center;}
+    .absulate-image-1 {
+        position: inherit;
+        left: 0;
+        top: 0;
+    }
+    .service-section:after {
+        width: 100%;
+    }
+    .service-section:before{
+        display: none;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .service-section {
+        margin:  0;
+    }
+    .cta-theme-4 {
+        padding: 30px 0;
+    }
+    .cta-14{
+        padding: 80px 0;
+        margin-top: 20px;
+    }
+    .slicknav_menu{
+        display: block;
+    }
+    #slik-btn{
+        margin-top: 25px;
+    }
+    .slicknav_menu {background: transparent;text-align: center;}
+
+    .slicknav_btn {
+        background: #EF496F;
+        float: none;
+        display: inline-block;
+    }
+
+    ul.slicknav_nav {
+        background: #333;
+        text-align: left;
+    }
+
+    a.slicknav_item.slicknav_row {}
+
+    .slicknav_nav .slicknav_row:hover {
+        background-color: #EF496F;
+    }
+
+    .slicknav_nav a:hover {
+        background: #EF496F;
+    }
+    .mega-menu-wrapper{
+        position: relative;
+    }
+    .mega-menu-wrapper:hover{
+        bottom: 0;
+        background: #333;
+        color: #fff;
+    }
+    .slicknav_nav{
+        background: #333;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+    .header-area.them-1 .logo {
+        text-align: center;
+    }
+
+    .mainmenu {
+        display: none;
+    }
+    .sm-center{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .hero-area {
+        padding: 20px 0;
+    }
+    .hero-area h1 {
+        max-width: inherit;
+        font-size: 30px;
+        margin: 20px 0;
+    }
+    .section-title {
+        padding-top: 50px;
+        margin-bottom: 20px;}
+    .pdt-50 {
+        padding-top: 20px;
+    }
+    .sm-left{
+        text-align: left;
+    }
+    #testomonial-area {
+        padding: 50px 0;
+    }
+    .email-subscription input[type="submit"] {
+        margin-left: 37px;
+    }
+    .hero-content {
+        margin-top: 0px; 
+    }
+    .single-service-box-2 {
+        margin-bottom: 20px;
+    }
+    #testomonial-2 {
+        margin-top: 20px;
+        padding: 40px 0;
+        text-align: center;
+    }
+    .single-blog-box {
+        margin-bottom: 20px;
+    }
+    .website-check-form {
+        padding: 40px 0 50px;
+    }
+    .m-t-20 {
+        margin-top: 30px;
+    }
+    .single-slide-rapper h2{
+        font-size: 40px;
+    }
+    #footer-area {
+        text-align: center;}
+    .hero-area-wrapper h2 {
+        font-size: 30px;}
+    .tile-galary {
+        position: relative;
+        text-align: center;}
+    .absulate-image-1 {
+        position: inherit;
+        left: 0;
+        top: 0;
+    }
+    .service-section:after {
+        width: 100%;
+    }
+    .service-section:before{
+        display: none;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .service-section {
+        margin:  0;
+    }
+    .cta-theme-4 {
+        padding: 30px 0;
+    }
+    .cta-14{
+        padding: 80px 0;
+        margin-top: 20px;
+    }
+    .slicknav_menu{
+        display: block;
+    }
+    #slik-btn{
+        margin-top: 25px;
+    }
+    .slicknav_menu {background: transparent;text-align: center;}
+
+    .slicknav_btn {
+        background: #EF496F;
+        float: none;
+        display: inline-block;
+    }
+
+    ul.slicknav_nav {
+        background: #333;
+        text-align: left;
+    }
+
+    a.slicknav_item.slicknav_row {}
+
+    .slicknav_nav .slicknav_row:hover {
+        background-color: #EF496F;
+    }
+
+    .slicknav_nav a:hover {
+        background: #EF496F;
+    }
+    .mega-menu-wrapper{
+        position: relative;
+    }
+    .mega-menu-wrapper:hover{
+        bottom: 0;
+        background: #333;
+        color: #fff;
+    }
+    .slicknav_nav{
+        background: #333;
+    }
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+    .header-area.them-1 .logo {
+        text-align: center;
+    }
+
+    .mainmenu {
+        display: none;
+    }
+    .sm-center{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .hero-area {
+        padding: 20px 0;
+    }
+    .hero-area h1 {
+        max-width: inherit;
+        font-size: 30px;
+        margin: 20px 0;
+    }
+    .section-title {
+        padding-top: 50px;
+        margin-bottom: 20px;}
+    .pdt-50 {
+        padding-top: 20px;
+    }
+    .sm-left{
+        text-align: left;
+    }
+    #testomonial-area {
+        padding: 50px 0;
+    }
+    .email-subscription input[type="submit"] {
+        margin-left: 37px;
+    }
+    .hero-content {
+        margin-top: 0px; 
+    }
+    .single-service-box-2 {
+        margin-bottom: 20px;
+    }
+    #testomonial-2 {
+        margin-top: 20px;
+        padding: 40px 0;
+        text-align: center;
+    }
+    .single-blog-box {
+        margin-bottom: 20px;
+    }
+    .website-check-form {
+        padding: 40px 0 50px;
+    }
+    .m-t-20 {
+        margin-top: 30px;
+    }
+    .single-slide-rapper h2{
+        font-size: 40px;
+    }
+    #footer-area {
+        text-align: center;}
+    .hero-area-wrapper h2 {
+        font-size: 30px;}
+    .tile-galary {
+        position: relative;
+        text-align: center;}
+    .absulate-image-1 {
+        position: inherit;
+        left: 0;
+        top: 0;
+    }
+    .service-section:after {
+        width: 100%;
+    }
+    .service-section:before{
+        display: none;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .service-section {
+        margin:  0;
+    }
+    .cta-theme-4 {
+        padding: 30px 0;
+    }
+    .cta-14{
+        padding: 80px 0;
+        margin-top: 20px;
+    }
+    .slicknav_menu{
+        display: block;
+    }
+    #slik-btn{
+        margin-top: 25px;
+    }
+    .slicknav_menu {background: transparent;text-align: center;}
+
+    .slicknav_btn {
+        background: #EF496F;
+        float: none;
+        display: inline-block;
+    }
+
+    ul.slicknav_nav {
+        background: #333;
+        text-align: left;
+    }
+
+    a.slicknav_item.slicknav_row {}
+
+    .slicknav_nav .slicknav_row:hover {
+        background-color: #EF496F;
+    }
+
+    .slicknav_nav a:hover {
+        background: #EF496F;
+    }
+    .mega-menu-wrapper{
+        position: relative;
+    }
+    .mega-menu-wrapper:hover{
+        bottom: 0;
+        background: #333;
+        color: #fff;
+    }
+    .slicknav_nav{
+        background: #333;
+    }
+
+}

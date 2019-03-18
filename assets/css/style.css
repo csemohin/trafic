@@ -1,0 +1,416 @@
+/*
+Templete Name:- Traffic
+*/
+/*=======CSS INDEX===============
+BASE CSS
+MAIN MENU CSS
+BOX BUTTON CSS
+HERO AREA CSS
+WEBSITE CHECK FROM CSS
+SERVICE AREA CSS
+READ MORE BUTTON CSS
+ONLINE MERKINTING CSS
+CASE STUDY CSS
+EMAIL SUBSCRIPTION CSS
+FOOTER AREA CSS
+COPY RIGHT AREA CSS
+========================*/
+
+/*======================
+BASE CSS
+========================*/
+
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #333333
+}
+body {
+    font-family: 'Khula', sans-serif;
+    color: #999999;
+    font-size: 15px;
+}
+a:hover { text-decoration: none }
+
+.section-title {
+    padding-top: 150px;
+    margin-bottom: 100px;
+    font-weight:400;
+    line-height: 1.6;
+}
+.pdt-50 {
+    padding-top: 50px;
+}
+/*======================
+MAIN MENU CSS
+========================*/
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+}
+
+.header-area{
+    margin-top: 15px;
+}
+.mainmenu ul li {
+    position: relative;
+    display: inline-block;
+    z-index: 99;
+}
+.mainmenu ul li a {
+    display: block;
+    color: #888;
+    padding: 11px 15px;
+}
+.them-1 .mainmenu li:hover > ul {
+    box-shadow: 0px 5px 5px #ddd;
+}
+
+.slicknav_menu{
+    display: none;
+}
+
+/*======================
+BOX BUTTON CSS
+========================*/
+.boxed-button,input[type=button],input[type=submit]{
+    border: none;
+    display: inline-block;
+    background: #EF496F;
+    padding: 12px 24px;
+    color: #ffffff;
+    border-radius: 2px;
+}
+input[type=submit]{
+    display:inline-block;
+    padding: 11px 16px;
+}
+h1 {
+}
+
+/*======================
+HERO AREA CSS
+========================*/
+.hero-area{
+    padding: 150px 0;
+    border-bottom: 1px solid #F6F6F6;
+}
+.hero-area h1 {
+    max-width: 450px;
+    font-size: 40px;
+    margin: 35px 0;
+}
+
+/*======================
+WEBSITE CHECK FROM CSS
+========================*/
+input[type=text],input[type=url],input[type=email],input[type=placeholder] {
+    border: 1px solid #EFEFEF;
+    padding: 10px 15px;
+    color: #999999;
+}
+.website-checker-form {
+    margin: 45px 0;
+}
+
+
+/*======================
+SERVICE AREA CSS
+========================*/
+#service-area{
+    padding-bottom: 100px;
+
+}
+
+.single-service-box {
+    border: 1px solid #fafafa;
+    padding: 42px 22px;
+    margin-bottom: 55px;
+    line-height: 1.6;
+}
+.single-service-box:hover{
+    border: 1px solid #F37A97;
+}
+.single-service-box h3 {
+    font-size: 20px;
+    color: #333;
+}
+.service-icon {
+    font-size: 25px;
+    color: #333333;
+}
+.single-service-box:hover .service-icon,
+.single-service-box:hover a.service-read-more-btn,
+.single-service-box:hover h3
+{
+    color: #F26888;
+}
+
+/*======================
+READ MORE BUTTON CSS
+========================*/
+.service-read-more-btn {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+}
+
+/*======================
+ONLINE MERKINTING CSS
+========================*/
+.online-marketing {
+    line-height: 1.6;
+}
+.testomonial-meta img{
+    margin: 0 auto;
+}
+
+/*======================
+CASE STUDY CSS
+========================*/
+#case-study {
+    background: #FBFBFB;
+    padding-bottom: 90px;
+    overflow-x: hidden;
+}
+.single-case-stydy {
+    position: relative;
+    overflow: hidden;
+}
+.single-case-study-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 40px 30px;
+    text-align: center;
+    color: #fff;
+    background: #EF496F;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+}
+.single-case-stydy:hover .single-case-study-wrapper{
+    opacity: 1;
+}
+
+.case-study-more {
+    height: 40px;
+    width: 40px;
+    color: #000;
+    background: #fff;
+    border-radius: 50%;
+    /*! line-height: 40px; */
+    display: inline-block;
+    margin-top: 10px;
+}
+.case-study-more i {
+    line-height: 40px;
+}
+.single-case-study-wrapper h3,h4 {
+    color: #fff;
+}
+
+/*======================
+CASE STUDY CAROSAL CSS
+========================*/
+.case-study-carosal .owl-stage-outer {
+    overflow: inherit;
+}
+.owl-dots div {
+    height: 3px;
+    width: 20px;
+    background-color: #E2E2E2;
+    display: inline-block;
+    margin: 2px;
+
+}
+.owl-dots div.active {
+    background-color: #EF496F;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#testomonial-area {
+    padding: 120px 0;
+}
+.testominial-content p {
+    font-size: 24px;
+    color: #5F5F5F;
+}
+/*======================
+CTA AREA CSS
+========================*/
+#cta-area {
+    background: #F8F8F8;
+    padding: 60px 0;
+    color: #3A3A3A;
+}
+
+
+/*======================
+SINGLE PRICING BOX CSS
+========================*/
+.single-pricing-box {
+    border: 1px solid #F3F3F3;
+    text-align: center;
+    line-height: 2;
+    padding: 20px 0;
+    margin-bottom: 60px;
+    transition: .2s;
+}
+.single-pricing-box:hover{
+    border-color: #EF496F;
+}
+.single-pricing-heading hr{
+    width: 80%;
+    transition: .2s;
+}
+.single-pricing-box:hover 
+.single-pricing-heading hr{
+    border-color: #EF496F;
+}
+.single-pricing-heading h4 {
+    color: #545454;
+}
+.single-pricing-heading {
+}
+.single-pricing-heading {
+    line-height: 1;
+    padding: 20px 0;
+}
+.pricing-count {
+    font-size: 50px;
+    color: #F26E8D;
+}
+.pricing-containt ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+.single-pricing-box .boxed-button {
+    line-height: 1.5;
+}
+.single-logo-inner img {
+    height: 40px;
+    width: ;
+}
+.single-logo-item {
+    padding: 40px;
+    margin-bottom: 100px;
+}
+.single-logo-inner {
+    opacity: .7;
+    transition: .2s;
+}
+.single-logo-inner:hover {
+    opacity: 1;
+}
+
+.pricing-title {
+    padding: 100px 0;
+}
+/*======================
+FOOTER AREA CSS
+========================*/
+.footer-wized ul li a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-wized ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: justify;
+    cursor: pointer;
+}
+.footer-wized h3 {
+    margin-left: 38px;
+}
+.footer-wized ul li:hover {
+    color: #EF496F;
+}
+.footer-wized {
+    line-height: 2;
+}
+#footer-area {
+    background: #FDFDFD;
+    padding: 100px 0;
+}
+/*======================
+SOCIAL AREA LINK CSS
+========================*/
+.social-link ul li a {
+    list-style: none;
+    padding: 10px;
+}
+
+.social-link ul li {
+    display: inline-block;
+}
+.social-link ul li a i {
+    color: black;
+}
+
+
+/*======================
+EMAIL SUBSCRIPTION CSS
+========================*/
+.email-subscription input[type=email] {
+    margin-left: 36px;
+    background: #F6F6F6;
+    border: none;
+}
+.email-subscription input[type="submit"] {
+    margin-left: -4px;
+    border: none;
+    border-radius: 0;
+}
+
+
+/*======================
+COPY RIGHT AREA CSS
+========================*/
+#copy-right-area h2 {
+    font-size: 20px;
+}
+#copy-right-area {
+    background: #F7F7F7;
+  
+}
+#copy-right-area h2 {
+    color: #999999;
+    padding: 20px 0;
+    font-weight: 100;
+}

@@ -1,0 +1,118 @@
+.mainmenu {
+    position: relative;
+}
+
+.mainmenu li ul {
+    position: absolute;
+    left: 5px;
+    top: 40px;
+    text-align: left;
+    background: #fff;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+
+
+}
+.mainmenu li ul li{
+    width: 150px;
+}
+
+.mainmenu li:hover >
+ul {
+    visibility: visible;
+    opacity: 1;
+
+}
+.mainmenu li:hover > a{
+    background: #45BD98;
+    color: #fff;
+}
+.mainmenu .mega-menu {
+    position: static;
+}
+
+
+
+.mainmenu li.mega-menu ul {
+    position: relative;
+    left: auto;
+    opacity: 1;
+    visibility: visible;
+    padding: 0;
+    width: 200px;
+    display: block;
+    margin-top: -49px;
+    width: 132px;
+}
+.mainmenu {
+    position: relative;
+}
+
+.mainmenu li ul {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    text-align: left;
+    background: #fff;
+    /*    width: 150px;*/
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.mainmenu li:hover >
+ul {
+    visibility: visible;
+    opacity: 1;
+}
+.mainmenu .mega-menu {
+    position: static;
+}
+
+.mega-menu-wrapper {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    color: #333;
+    padding: 40px 20px;
+    box-shadow: 0px 5px 5px #ddd;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    top:80px;
+    transition: .3s;
+}
+.mega-menu-wrapper .boxed-button{
+    color: #fff;
+}
+.mega-menu:hover > .mega-menu-wrapper {
+    opacity: 1;
+    z-index: 99;
+    visibility: visible;
+    top:40px;
+}
+.mega-menu-wrapper ul
+li {
+    display: block;
+    width: 130px;
+}
+
+.mega-menu-wrapper ul
+li:hover > a {
+    background-color: #45BD98;
+    color: #fff;
+}
+
+.them-1 .mainmenu li:hover > ul {
+    box-shadow: 0px 5px 5px #ddd;
+}
+.them-3 .mainmenu li:hover > a {
+    color: #fff;
+}
+.them-3 .mainmenu ul li ul li a {
+    color: #333;
+}

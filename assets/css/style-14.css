@@ -1,0 +1,96 @@
+.cta-14{
+    background-image: url(../img/cta-14-v2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 150px 0;
+    margin-bottom: 120px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+
+}
+.cta-14:after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #073E4E;
+    opacity: .38;
+    z-index: -1;
+
+}
+.cta-14 h2{
+    color: #fff;
+    font-weight: 700;
+
+}
+.single-service-box:hover{
+    border: 1px solid #10D8A4;
+}
+.single-service-box:hover .service-icon,
+.single-service-box:hover a.service-read-more-btn,
+.single-service-box:hover h3
+{
+    color: #2AC89E;
+}
+.boxed-button, input[type="button"], input[type="submit"] {
+    border: none;
+    display: inline-block;
+    background: #06D6A0;
+    padding: 12px 24px;
+    color: #ffffff;
+    border-radius: 0px;
+    transition:.3s;
+}
+.boxed-button:hover{
+    background: #000;;
+    color: #ffffff;
+}
+.email-subscription input[type="submit"] {
+    height: 51px;
+    margin-top: 15px;
+}
+#cta-14-2{
+    background-image: url(../img/cta-14-v2-2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 55px 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+#cta-14-2 h2{
+    color: #fff;
+    font-weight: 700;
+}
+#cta-14-2:after{
+    position: absolute;
+    content: "";
+    background: #073E4E;
+    opacity: .62;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.footer-wized ul li:hover {
+    color: #06D6A0;
+}
+.footer-wized ul li i:hover {
+    color: #06D6A0;
+}
+
+
+
+/*SERVICE VS2*/
+.service-count span{
+    font-size: 65px;
+    color: #D1D1D1;
+}
